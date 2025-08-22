@@ -3293,10 +3293,6 @@
 
 /* 📱 반응형 (화면 폭 600px 이하일 때) */
 @media (max-width: 600px) {
-    .profile-container {
-        flex-direction: column;   /* 세로 배치 */
-        text-align: center;       /* 가운데 정렬 */
-    }
 
     .profile-photo {
         margin-right: 0;
@@ -3311,6 +3307,7 @@
 
     .profile-info {
         font-size: 1em;
+		justify-content: center;
     }
 
 	.education {
