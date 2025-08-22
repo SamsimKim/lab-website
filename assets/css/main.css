@@ -1347,6 +1347,8 @@
 
 				.row > .col-10-narrower {
 					width: 83.33333%;
+					margin: 0 auto;
+        			text-align: center;
 				}
 
 				.row > .off-10-narrower {
@@ -1999,6 +2001,7 @@
 
 			.container {
 				width: 100% !important;
+
 			}
 
 		}
@@ -2283,7 +2286,7 @@
 			.box.features .features-row section {
 				float: left;
 				padding: 3em;
-				width: 50%;
+				width: 70%;
 			}
 
 				.box.features .features-row section :last-child {
